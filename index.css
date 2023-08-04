@@ -1,0 +1,78 @@
+#red{
+    border: 1px solid red;
+    float: left;
+    background-color: red;
+}
+
+#blue{
+    border: 1px solid blue;
+    float: right;
+    background-color: blue;
+}
+
+#green{
+    border: 1px solid green;
+    margin: auto;
+    background-color: green;
+}
+
+#yellow{
+    border: 1px solid yellow;
+    float: left;
+    background-color: yellow;
+}
+
+#orange{
+    border: 1px solid orange;
+    float: right;
+    background-color: orange;
+}
+
+#purple{
+    border: 1px solid magenta;
+    margin: auto;
+    background-color: magenta;
+}
+
+#black{
+    border: 1px solid black;
+    float: left;
+    background-color: black;
+}
+
+#grey{
+    border: 1px solid grey;
+    float: right;
+    background-color: grey;
+}
+
+#brown{
+    border: 1px solid brown;
+    margin: auto;
+    background-color: brown;
+}
+
+#bigbox{
+    border: 1px solid black;
+    width: 800px;
+    height: 800px;
+    margin: auto;
+}
+
+.row{
+    width: 100%;
+    height: 33%;
+    border: 1px solid black;
+    margin: auto;
+}
+
+.square{
+    height: 100%;
+    width: 33%;
+}
+
+#cube{
+    text-align: center;
+    font-size: 3em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold';
+}

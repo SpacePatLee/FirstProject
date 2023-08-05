@@ -57,6 +57,7 @@
     width: 800px;
     height: 800px;
     margin: auto;
+    animation: rotate 500s infinite linear;
 }
 
 .row{
@@ -72,7 +73,50 @@
 }
 
 #cube{
-    text-align: center;
     font-size: 3em;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold';
+}
+
+#cubebox{
+    width: 110px;
+    left: 1000px;
+    position: absolute;
+    animation: movement 10s infinite linear, rotate 5s infinite cubic-bezier(0, 0.5, 0.75, 1);
+}
+
+@keyframes movement {
+    0% {
+        top: 0%;
+        left: 0%;
+    }
+
+    25% {
+        top: 0%;
+        left: 92%;
+    }
+
+    50% {
+        top: 85%;
+        left: 92%;
+    }
+
+    75% {
+        top: 85%;
+        left: 0%;
+    }
+
+    100% {
+        top: 0%;
+        left: 0%;
+    }
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
 }

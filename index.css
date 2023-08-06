@@ -57,7 +57,7 @@
     width: 800px;
     height: 800px;
     margin: auto;
-    animation: rotate 500s infinite linear;
+    animation: rotate 50s infinite linear;
 }
 
 .row{
